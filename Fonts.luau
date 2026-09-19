@@ -4,12 +4,12 @@ do
     end;
 
     local fonts = {
-        { name = "smallestpixel_font", url= "https://github.com/xqvw/Fonts/raw/refs/heads/main/smallestpixel", decode = true },
-        { name = "pixel_arial_font", url = "https://github.com/xqvw/Fonts/raw/refs/heads/main/pixelarial.TTF" },
-        { name = "proggy_tiny_font", url = "https://github.com/xqvw/Fonts/raw/refs/heads/main/proggytiny.ttf" },
-        { name = "proggyclean_font", url = "https://github.com/xqvw/Fonts/raw/refs/heads/main/proggyclean", decode = true },
-        { name = "monocraft_font", url = "https://github.com/xqvw/Fonts/raw/refs/heads/main/monocraft", decode = true },
-        { name = "tahoma_font", url = "https://github.com/xqvw/Fonts/raw/refs/heads/main/tahoma.ttf" }
+        { name = "smallestpixel_font", url = "https://raw.githubusercontent.com/xqvw/Modules/refs/heads/main/Fonts/SmallestPixel", decode = true },
+        { name = "pixel_arial_font", url = "https://github.com/xqvw/Modules/raw/refs/heads/main/Fonts/PixelArial.TTF" },
+        { name = "proggy_tiny_font", url = "https://github.com/xqvw/Modules/raw/refs/heads/main/Fonts/ProggyTiny.ttf" },
+        { name = "proggyclean_font", url = "https://github.com/xqvw/Modules/raw/refs/heads/main/Fonts/ProggyClean", decode = true },
+        { name = "monocraft_font", url = "https://raw.githubusercontent.com/xqvw/Modules/refs/heads/main/Fonts/Monocraft", decode = true },
+        { name = "tahoma_font", url = "https://github.com/xqvw/Modules/raw/refs/heads/main/Fonts/Tahoma.ttf" }
     };
 
 
