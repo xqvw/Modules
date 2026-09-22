@@ -15,12 +15,18 @@ hui = cloneref(gethui());
 
 math_random = clonefunction(math.random);
 math_floor = clonefunction(math.floor);
+math_clamp = clonefunction(math.clamp);
 math_max = clonefunction(math.max);
+math_min = clonefunction(math.min);
 math_abs = clonefunction(math.abs);
 math_deg = clonefunction(math.deg);
 math_atan2 = clonefunction(math.atan2);
+math_tan = clonefunction(math.tan);
 math_sin = clonefunction(math.sin);
 math_cos = clonefunction(math.cos);
+math_rad = clonefunction(math.rad);
+
+math_pi = math.pi;
 
 task_wait = clonefunction(task.wait);
 task_spawn = clonefunction(task.spawn);
