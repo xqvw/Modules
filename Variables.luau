@@ -35,6 +35,8 @@ table_sort = clonefunction(table.sort);
 table_pack = clonefunction(table.pack);
 
 color3_fromrgb = clonefunction(Color3.fromRGB);
+color_sequence_new = clonefunction(ColorSequence.new);
+color_sequence_keypoint_new = clonefunction(ColorSequenceKeypoint.new);
 
 vector2_new = clonefunction(Vector2.new);
 vector3_new = clonefunction(Vector3.new);
