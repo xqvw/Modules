@@ -33,6 +33,8 @@ task_spawn = clonefunction(task.spawn);
 
 table_sort = clonefunction(table.sort);
 table_pack = clonefunction(table.pack);
+table_insert = clonefunction(table.insert);
+table_clear = clonefunction(table.clear);
 
 color3_fromrgb = clonefunction(Color3.fromRGB);
 color_sequence_new = clonefunction(ColorSequence.new);
