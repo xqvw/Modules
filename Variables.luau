@@ -17,6 +17,10 @@ math_random = clonefunction(math.random);
 math_floor = clonefunction(math.floor);
 math_max = clonefunction(math.max);
 math_abs = clonefunction(math.abs);
+math_deg = clonefunction(math.deg);
+math_atan2 = clonefunction(math.atan2);
+math_sin = clonefunction(math.sin);
+math_cos = clonefunction(math.cos);
 
 task_wait = clonefunction(task.wait);
 task_spawn = clonefunction(task.spawn);
@@ -25,3 +29,9 @@ table_sort = clonefunction(table.sort);
 table_pack = clonefunction(table.pack);
 
 color3_fromrgb = clonefunction(Color3.fromRGB);
+
+vector2_new = clonefunction(Vector2.new);
+vector3_new = clonefunction(Vector3.new);
+
+udim2_new = clonefunction(UDim2.new);
+udim2_from_offset = clonefunction(UDim2.fromOffset);
