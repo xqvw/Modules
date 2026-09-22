@@ -191,6 +191,7 @@ do
             }
         }
     });
+    rawset(objects, "hit_effects_key", {"bubble", "sparkles", "orbs", "vortex"});
 
 
 
