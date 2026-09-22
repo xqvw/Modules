@@ -15,6 +15,9 @@ hui = cloneref(gethui());
 
 math_random = clonefunction(math.random);
 math_floor = clonefunction(math.floor);
+math_max = clonefunction(math.max);
+math_abs = clonefunction(math.abs);
+
 task_wait = clonefunction(task.wait);
 task_spawn = clonefunction(task.spawn);
 
