@@ -38,6 +38,7 @@ color3_fromrgb = clonefunction(Color3.fromRGB);
 color_sequence_new = clonefunction(ColorSequence.new);
 color_sequence_keypoint_new = clonefunction(ColorSequenceKeypoint.new);
 
+number_range_new = clonefunction(NumberRange.new)
 number_sequence_new = clonefunction(NumberSequence.new);
 number_sequence_keypoint_new = clonefunction(NumberSequenceKeypoint.new);
 
