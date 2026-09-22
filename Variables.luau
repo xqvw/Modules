@@ -14,6 +14,6 @@ collection_service = cloneref(game:GetService("CollectionService"));
 
 math_random = clonefunction(math.random);
 math_floor = clonefunction(math.floor);
-wait = clonefunction(task.wait);
-sort = clonefunction(table.sort);
+task_wait = clonefunction(task.wait);
+table_sort = clonefunction(table.sort);
 color3_fromrgb = clonefunction(Color3.fromRGB);
