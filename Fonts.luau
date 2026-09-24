@@ -34,8 +34,7 @@ do
         end);
 
         if not (ok) then
-            game.Players.LocalPlayer:Kick("failed to register font, please rejoin");
-            game.Players.LocalPlayer:Remove();
+            warn(err);
         end;
     end;
 end;
