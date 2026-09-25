@@ -25,6 +25,7 @@ math_tan = clonefunction(math.tan);
 math_sin = clonefunction(math.sin);
 math_cos = clonefunction(math.cos);
 math_rad = clonefunction(math.rad);
+math_sqrt = clonefunction(math.sqrt);
 
 math_pi = math.pi;
 
