@@ -58,7 +58,7 @@ do
         ["bodybuilder"] = "rbxassetid://3994130516",
         ["bouncy twirl"] = "rbxassetid://14353423348",
         ["floss"] = "rbxassetid://5917570207",
-        ["caramelldansen"] = "rbxassetid://97847706148165",
+        ["caramelldansen"] = "rbxassetid://90782855438572",
         ["hype"] = "rbxassetid://3696757129",
         ["kicking feet"] = "rbxassetid://112540347880956",
         ["take me under"] = "rbxassetid://6797938823",
