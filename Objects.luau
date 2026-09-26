@@ -39,15 +39,15 @@ do
 
     -- // ( Auras )
     rawset(meimei, "auras", {
-        ["angel"] = game:Getmeimei("rbxassetid://118170929417615")[1],
-        ["flow"] = game:Getmeimei("rbxassetid://119913533725648")[1],
-        ["heavenly"] = game:Getmeimei("rbxassetid://139300897520961")[1],
-        ["ribbon"] = game:Getmeimei("rbxassetid://132069507632161")[1],
-        ["wind"] = game:Getmeimei("rbxassetid://80694081850877")[1],
-        ["celestial"] = game:Getmeimei("rbxassetid://78091083790211")[1],
-        ["hearts"] = game:Getmeimei("rbxassetid://82132594242160")[1],
-        ["triangles"] = game:Getmeimei("rbxassetid://103816036088614")[1],
-        ["starlight"] = game:Getmeimei("rbxassetid://103382181949401")[1]
+        ["angel"] = game:GetObjects("rbxassetid://118170929417615")[1],
+        ["flow"] = game:GetObjects("rbxassetid://119913533725648")[1],
+        ["heavenly"] = game:GetObjects("rbxassetid://139300897520961")[1],
+        ["ribbon"] = game:GetObjects("rbxassetid://132069507632161")[1],
+        ["wind"] = game:GetObjects("rbxassetid://80694081850877")[1],
+        ["celestial"] = game:GetObjects("rbxassetid://78091083790211")[1],
+        ["hearts"] = game:GetObjects("rbxassetid://82132594242160")[1],
+        ["triangles"] = game:GetObjects("rbxassetid://103816036088614")[1],
+        ["starlight"] = game:GetObjects("rbxassetid://103382181949401")[1]
     });
     rawset(meimei, "aura_key", {"angel", "heavenly", "starlight", "celestial", "hearts", "flow", "ribbon", "wind", "triangles"});
 
