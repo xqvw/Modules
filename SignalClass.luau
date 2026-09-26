@@ -1,5 +1,5 @@
 
-signals = {};
+local signals = {};
 
 do
     local connection = {};
@@ -50,3 +50,5 @@ do
         return connection.new(self, callback);
     end;
 end;
+
+return signals;
