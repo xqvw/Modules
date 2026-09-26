@@ -1,4 +1,4 @@
-local objects = {};
+meimei = {};
 
 
 
@@ -8,7 +8,7 @@ do
 
 
     -- // ( Hit sounds )
-    rawset(objects, "hit_sounds", {
+    rawset(meimei, "hit_sounds", {
         ["bow"] = "rbxassetid://101967493171799",
         ["click"] = "rbxassetid://1347140027",
         ["neverlose"] = "rbxassetid://6607204501",
@@ -21,40 +21,40 @@ do
         ["windows xp error"] = "rbxassetid://160715357",
         ["damage"] = "rbxassetid://6361963422"
     });
-    rawset(objects, "hit_sounds_key", {"custom","bow","click","neverlose","gamesense","sparkle","rust","tf2","impact","pop","windows xp error","damage"});
+    rawset(meimei, "hit_sounds_key", {"custom","bow","click","neverlose","gamesense","sparkle","rust","tf2","impact","pop","windows xp error","damage"});
 
 
 
     -- // ( Shoot sounds )
-    rawset(objects, "shoot_sounds", {
+    rawset(meimei, "shoot_sounds", {
         ["bow"] = "rbxassetid://3442683707",
         ["crossbow"] = "rbxassetid://8616930816",
         ["plasma shotgun"] = "rbxassetid://2605233927",
         ["plasma pistol"] = "rbxassetid://5312934759",
         ["plasma machine"] = "rbxassetid://2605256561",
     });
-    rawset(objects, "shoot_sounds_key", {"custom", "bow", "crossbow", "plasma shotgun", "plasma pistol", "plasma machine"});
+    rawset(meimei, "shoot_sounds_key", {"custom", "bow", "crossbow", "plasma shotgun", "plasma pistol", "plasma machine"});
 
 
 
     -- // ( Auras )
-    rawset(objects, "auras", {
-        ["angel"] = game:GetObjects("rbxassetid://118170929417615")[1],
-        ["flow"] = game:GetObjects("rbxassetid://119913533725648")[1],
-        ["heavenly"] = game:GetObjects("rbxassetid://139300897520961")[1],
-        ["ribbon"] = game:GetObjects("rbxassetid://132069507632161")[1],
-        ["wind"] = game:GetObjects("rbxassetid://80694081850877")[1],
-        ["celestial"] = game:GetObjects("rbxassetid://78091083790211")[1],
-        ["hearts"] = game:GetObjects("rbxassetid://82132594242160")[1],
-        ["triangles"] = game:GetObjects("rbxassetid://103816036088614")[1],
-        ["starlight"] = game:GetObjects("rbxassetid://103382181949401")[1]
+    rawset(meimei, "auras", {
+        ["angel"] = game:Getmeimei("rbxassetid://118170929417615")[1],
+        ["flow"] = game:Getmeimei("rbxassetid://119913533725648")[1],
+        ["heavenly"] = game:Getmeimei("rbxassetid://139300897520961")[1],
+        ["ribbon"] = game:Getmeimei("rbxassetid://132069507632161")[1],
+        ["wind"] = game:Getmeimei("rbxassetid://80694081850877")[1],
+        ["celestial"] = game:Getmeimei("rbxassetid://78091083790211")[1],
+        ["hearts"] = game:Getmeimei("rbxassetid://82132594242160")[1],
+        ["triangles"] = game:Getmeimei("rbxassetid://103816036088614")[1],
+        ["starlight"] = game:Getmeimei("rbxassetid://103382181949401")[1]
     });
-    rawset(objects, "aura_key", {"angel", "heavenly", "starlight", "celestial", "hearts", "flow", "ribbon", "wind", "triangles"});
+    rawset(meimei, "aura_key", {"angel", "heavenly", "starlight", "celestial", "hearts", "flow", "ribbon", "wind", "triangles"});
 
 
 
     -- // ( Animations )
-    rawset(objects, "animation_ids", {
+    rawset(meimei, "animation_ids", {
         ["bodybuilder"] = "rbxassetid://3994130516",
         ["bouncy twirl"] = "rbxassetid://14353423348",
         ["floss"] = "rbxassetid://5917570207",
@@ -65,12 +65,12 @@ do
         ["invisible"] = "rbxassetid://94292601332790",
         ["fly"] = "rbxassetid://93511411593120"
     });
-    rawset(objects, "animations_key", {"fly", "invisible", "custom", "bodybuilder", "bouncy twirl", "floss", "caramelldansen", "hype", "kicking feet", "take me under"});
+    rawset(meimei, "animations_key", {"fly", "invisible", "custom", "bodybuilder", "bouncy twirl", "floss", "caramelldansen", "hype", "kicking feet", "take me under"});
 
 
 
     -- // ( Hit effects )
-    rawset(objects, "hit_effects", {
+    rawset(meimei, "hit_effects", {
         ["orbs"] = {
             {
                 {
@@ -191,12 +191,12 @@ do
             }
         }
     });
-    rawset(objects, "hit_effects_key", {"bubble", "sparkles", "orbs", "vortex"});
+    rawset(meimei, "hit_effects_key", {"bubble", "sparkles", "orbs", "vortex"});
 
 
 
     -- // ( Bullet tracers )
-    rawset(objects, "bullet_tracers", {
+    rawset(meimei, "bullet_tracers", {
         ["laser"] = {
             Texture = "rbxassetid://12781800668",
             FaceCamera = true,
@@ -217,12 +217,12 @@ do
             TextureLength = 1
         }
     });
-    rawset(objects, "bullet_tracers_key", {"laser","line","wavy","zigzag"});
+    rawset(meimei, "bullet_tracers_key", {"laser","line","wavy","zigzag"});
 
 
 
     -- // ( Fonts )
-    rawset(objects, "fonts", {
+    rawset(meimei, "fonts", {
         ["smallest pixel"] = "meimei ware/fonts/smallestpixel_font",
         ["pixel arial"] = "meimei ware/fonts/pixel_arial_font",
         ["proggy tiny"] = "meimei ware/fonts/proggy_tiny_font",
@@ -231,23 +231,23 @@ do
         ["tahoma"] = "meimei ware/fonts/tahoma_font",
         ["ubuntu"] = nil
     });
-    rawset(objects, "fonts_key", {"smallest pixel", "pixel arial", "proggy tiny", "proggy clean", "monocraft", "tahoma", "ubuntu"});
+    rawset(meimei, "fonts_key", {"smallest pixel", "pixel arial", "proggy tiny", "proggy clean", "monocraft", "tahoma", "ubuntu"});
 
 
 
     -- // ( Ambience )
-    rawset(objects, "ambience_sounds", {
+    rawset(meimei, "ambience_sounds", {
         ["rain"] = "rbxassetid://9112854440",
         ["wind"] = "rbxassetid://6670092634",
         ["night"] = "rbxassetid://179507208",
         ["day"] = "rbxassetid://9112738322"
     });
-    rawset(objects, "ambience_key", {"rain", "wind", "night", "day"});
+    rawset(meimei, "ambience_key", {"rain", "wind", "night", "day"});
 
 
 
     -- // ( Skyboxes )
-    rawset(objects, "skyboxes", {
+    rawset(meimei, "skyboxes", {
         ["afternoon"] = { Bk = "rbxassetid://162001887", Dn = "rbxassetid://161998893", Ft = "rbxassetid://162001897", Lf = "rbxassetid://162001904", Rt = "rbxassetid://162001919", Up = "rbxassetid://162001926"},
         ["cloudy"] = { Bk = "rbxassetid://246480323", Dn = "rbxassetid://246480523", Ft = "rbxassetid://246480105", Lf = "rbxassetid://246480549", Rt = "rbxassetid://246480565", Up = "rbxassetid://246480504" },
         ["dawn"] = { Bk = "rbxassetid://9778108979", Dn = "rbxassetid://9778110864", Ft = "rbxassetid://9778101192", Lf = "rbxassetid://9778103329", Rt = "rbxassetid://9778104889", Up = "rbxassetid://9778106496" },
@@ -262,12 +262,12 @@ do
         ["white"] = { Bk = "rbxassetid://226025278", Dn = "rbxassetid://226025278", Ft = "rbxassetid://226025278", Lf = "rbxassetid://226025278", Rt = "rbxassetid://226025278", Up = "rbxassetid://226025278" },
         ["ocean sky"] = { Bk = "rbxassetid://11854686548", Dn = "rbxassetid://11854687121", Ft = "rbxassetid://11854693863", Lf = "rbxassetid://11854696162", Rt = "rbxassetid://11854698541", Up = "rbxassetid://11854708161" },
     });
-    rawset(objects, "skyboxes_key", {"afternoon", "cloudy", "dawn", "earth", "horizontal milky way", "jungle", "mountains", "pink skies", "saturn", "sunset", "vertical milky way", "white", "ocean sky"});
+    rawset(meimei, "skyboxes_key", {"afternoon", "cloudy", "dawn", "earth", "horizontal milky way", "jungle", "mountains", "pink skies", "saturn", "sunset", "vertical milky way", "white", "ocean sky"});
 
 
 
     -- // ( Weather )
-    rawset(objects, "weathers", {
+    rawset(meimei, "weathers", {
         ["light rain"] = {
             ["LockedToPart"] = true,
             ["Rate"] = 500,
@@ -334,13 +334,13 @@ do
             }
         }
     });
-    rawset(objects, "weather_key", {"light rain", "heavy rain", "snow"});
+    rawset(meimei, "weather_key", {"light rain", "heavy rain", "snow"});
 
 
 
     -- // ( Misc stuff )
-    rawset(objects, "materials_key", {"Neon", "ForceField"});
-    rawset(objects, "body_parts_key", {
+    rawset(meimei, "materials_key", {"Neon", "ForceField"});
+    rawset(meimei, "body_parts_key", {
         "Head", "UpperTorso", "LowerTorso",
         "LeftUpperArm", "LeftLowerArm", "RightUpperArm", "RightLowerArm",
         "LeftHand", "RightHand",
@@ -350,12 +350,8 @@ do
 end;
 
 
-for index, table in pairs(objects) do
+for index, table in pairs(meimei) do
     if (index:lower():find("key")) then
         table_sort(table);
     end;
 end;
-
-
-
-return objects;
