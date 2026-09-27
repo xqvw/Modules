@@ -49,6 +49,9 @@ number_sequence_keypoint_new = clonefunction(NumberSequenceKeypoint.new);
 vector2_new = clonefunction(Vector2.new);
 vector3_new = clonefunction(Vector3.new);
 
+
+cframe_new = clonefunction(CFrame.new);
+
 udim_new = clonefunction(UDim.new);
 udim2_new = clonefunction(UDim2.new);
 udim2_from_offset = clonefunction(UDim2.fromOffset);
