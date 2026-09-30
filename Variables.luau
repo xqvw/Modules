@@ -6,7 +6,6 @@ camera = workspace.CurrentCamera;
 debris = cloneref(game:GetService("Debris"));
 
 replicated_storage = cloneref(game:GetService("ReplicatedStorage"));
-replicated_first = cloneref(game:GetService("ReplicatedFirst"));
 run_service = cloneref(game:GetService("RunService"));
 sound_service = cloneref(game:GetService("SoundService"));
 user_input_service = cloneref(game:GetService("UserInputService"));
@@ -52,6 +51,7 @@ vector3_new = clonefunction(Vector3.new);
 
 
 cframe_new = clonefunction(CFrame.new);
+cframe_angles = clonefunction(CFrame.Angles);
 
 udim_new = clonefunction(UDim.new);
 udim2_new = clonefunction(UDim2.new);
