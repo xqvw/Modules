@@ -57,3 +57,6 @@ cframe_angles = clonefunction(CFrame.Angles);
 udim_new = clonefunction(UDim.new);
 udim2_new = clonefunction(UDim2.new);
 udim2_from_offset = clonefunction(UDim2.fromOffset);
+
+
+game_id = game.GameId;
