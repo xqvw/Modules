@@ -7,9 +7,14 @@ debris = cloneref(game:GetService("Debris"));
 
 replicated_storage = cloneref(game:GetService("ReplicatedStorage"));
 replicated_first = cloneref(game:GetService("ReplicatedFirst"));
+
+chat_service = cloneref(game:GetService("TextChatService"));
+user_input_service = cloneref(game:GetService("UserInputService"));
+
 run_service = cloneref(game:GetService("RunService"));
 sound_service = cloneref(game:GetService("SoundService"));
-user_input_service = cloneref(game:GetService("UserInputService"));
+lighting = cloneref(game:GetService("Lighting"));
+
 collection_service = cloneref(game:GetService("CollectionService"));
 hui = cloneref(gethui());
 
