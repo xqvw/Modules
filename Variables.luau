@@ -42,6 +42,7 @@ task_spawn = clonefunction(task.spawn);
 
 table_sort = clonefunction(table.sort);
 table_pack = clonefunction(table.pack);
+table_unpack = clonefunction(table.unpack);
 table_insert = clonefunction(table.insert);
 table_clear = clonefunction(table.clear);
 table_remove = clonefunction(table.remove);
