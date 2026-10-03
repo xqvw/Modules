@@ -65,3 +65,16 @@ udim2_from_offset = clonefunction(UDim2.fromOffset);
 
 
 game_id = game.GameId;
+
+
+hook_function = clonefunction(hookfunction);
+set_stack_hidden = clonefunction(setstackhidden);
+
+debug_info = clonefunction(debug.info);
+get_gc = clonefunction(getgc);
+get_reg = clonefunction(getreg);
+filter_gc = clonefunction(filtergc);
+
+
+coroutine_close = clonefunction(coroutine.close);
+coroutine_yield = clonefunction(coroutine.yield);
