@@ -39,6 +39,7 @@ math_pi = math.pi;
 
 task_wait = clonefunction(task.wait);
 task_spawn = clonefunction(task.spawn);
+task_delay = clonefunction(task.delay);
 
 table_sort = clonefunction(table.sort);
 table_pack = clonefunction(table.pack);
@@ -61,6 +62,7 @@ vector3_new = clonefunction(Vector3.new);
 
 cframe_new = clonefunction(CFrame.new);
 cframe_angles = clonefunction(CFrame.Angles);
+cframe_fromeuleranglesxyz = clonefunction(CFrame.fromEulerAnglesXYZ);
 
 udim_new = clonefunction(UDim.new);
 udim2_new = clonefunction(UDim2.new);
