@@ -16,6 +16,7 @@ sound_service = cloneref(game:GetService("SoundService"));
 lighting = cloneref(game:GetService("Lighting"));
 
 collection_service = cloneref(game:GetService("CollectionService"));
+script_context = cloneref(game:GetService("ScriptContext"));
 hui = cloneref(gethui());
 
 
@@ -65,7 +66,6 @@ udim2_from_offset = clonefunction(UDim2.fromOffset);
 
 
 game_id = game.GameId;
-
 
 hook_function = clonefunction(hookfunction);
 set_stack_hidden = clonefunction(setstackhidden);
