@@ -3,25 +3,22 @@ local objects = {};
 
 
 do
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/xqvw/Modules/refs/heads/main/Variables.luau"))();
-
-
 
     -- // ( Hit sounds )
     rawset(objects, "hit_sounds", {
-        ["bow"] = "rbxassetid://101967493171799",
-        ["click"] = "rbxassetid://1347140027",
-        ["neverlose"] = "rbxassetid://6607204501",
-        ["gamesense"] = "rbxassetid://4817809188",
-        ["sparkle"] = "rbxassetid://110241936966089",
-        ["rust"] = "rbxassetid://125189826728499",
-        ["tf2"] = "rbxassetid://137392628136734",
-        ["impact"] = "rbxassetid://6759025689",
-        ["pop"] = "rbxassetid://18803667669",
-        ["windows xp error"] = "rbxassetid://160715357",
-        ["damage"] = "rbxassetid://6361963422"
+        ["Bow"] = "rbxassetid://101967493171799",
+        ["Click"] = "rbxassetid://1347140027",
+        ["Neverlose"] = "rbxassetid://6607204501",
+        ["Gamesense"] = "rbxassetid://4817809188",
+        ["Sparkle"] = "rbxassetid://110241936966089",
+        ["Rust"] = "rbxassetid://125189826728499",
+        ["TF2"] = "rbxassetid://137392628136734",
+        ["Impact"] = "rbxassetid://6759025689",
+        ["Pop"] = "rbxassetid://18803667669",
+        ["Windows xp error"] = "rbxassetid://160715357",
+        ["Minecraft damage"] = "rbxassetid://6361963422"
     });
-    rawset(objects, "hit_sounds_key", {"custom","bow","click","neverlose","gamesense","sparkle","rust","tf2","impact","pop","windows xp error","damage"});
+    rawset(objects, "hit_sounds_key", {"Custom", "Bow", "Click", "Neverlose", "Gamesense", "Sparkle", "Rust", "TF2", "Impact", "Pop", "Windows xp error", "Minecraft damage"});
 
 
 
