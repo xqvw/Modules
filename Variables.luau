@@ -51,11 +51,13 @@ table_unpack = clonefunction(table["unpack"]);
 table_insert = clonefunction(table["insert"]);
 table_clear = clonefunction(table["clear"]);
 table_remove = clonefunction(table["remove"]);
+table_concat = clonefunction(table["concat"]);
 
 color3_new = clonefunction(Color3["new"]);
 color3_fromrgb = clonefunction(Color3["fromRGB"]);
 color_sequence_new = clonefunction(ColorSequence["new"]);
 color_sequence_keypoint_new = clonefunction(ColorSequenceKeypoint["new"]);
+color3_fromhex = clonefunction(Color3["fromHex"]);
 
 number_range_new = clonefunction(NumberRange["new"])
 number_sequence_new = clonefunction(NumberSequence["new"]);
